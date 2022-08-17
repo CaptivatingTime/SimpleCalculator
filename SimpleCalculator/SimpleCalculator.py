@@ -24,7 +24,7 @@ while again:
     oper = ''.join(oper)
 
 
-    part_num = exp.partition(''.join(oper))
+    part_num = exp.partition(oper)
     num1 = part_num[0]
     num1 = int(num1)
     num2 = part_num[2]
